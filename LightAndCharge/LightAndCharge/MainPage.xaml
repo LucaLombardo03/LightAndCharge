@@ -15,7 +15,7 @@
                FontSize="25"
             HorizontalOptions="Center"
             VerticalOptions="Start"
-            Margin="0,25,0,0"
+            Margin="0,25,0,0" 
             FontFamily="MV Boli"
             TextColor="Black"/>
         <Label Text="OFF/ON"
