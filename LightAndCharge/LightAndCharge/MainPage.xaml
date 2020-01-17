@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LightAndCharge.MainPage">
+
+    <StackLayout BackgroundColor="Lightblue">
+        <Image Source="Logo.PNG"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0"
+               WidthRequest="100"/>
+        <Label Text="LightAndCharge" 
+               FontSize="25"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Margin="0,25,0,0"
+            FontFamily="MV Boli"
+            TextColor="Black"/>
+        <Label Text="OFF/ON"
+               HorizontalOptions="Center"
+               Margin="0,20,0,0"
+               TextColor="Black"/>
+        <Switch HorizontalOptions="Center"
+                Margin="0,10,0,0"
+                Toggled="Switch_Toggled"
+                />
+        <Label Text="Luminosità" TextColor="Black" Margin="15,10,0,0"/>
+        <Slider Minimum="0" Maximum="1" />
+        <Label Text="Colore" TextColor="Black" Margin="15,10,0,0"/>
+        <Slider Minimum="0" Maximum="1" />
+    </StackLayout>
+
+</ContentPage>
